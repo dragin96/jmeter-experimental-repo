@@ -1,3 +1,3 @@
 #!/bin/sh
 
-jmeter -n -t simple-test-plan.jmx -l out.jtl
+jmeter -n -t $(pwd)/simple-test-plan.jmx -l $(pwd)/out.jtl
