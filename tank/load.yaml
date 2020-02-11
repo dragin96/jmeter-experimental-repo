@@ -1,17 +1,21 @@
-core:
-  artifacts_base_dir: /tmp
 overload:
   enabled: true
   package: yandextank.plugins.DataUploader
   token_file: "token.txt"
 phantom:
-  ammofile: /var/loadtest/ammo.txt
-  address: master.qa.sravni-team.ru
-  ssl: false
-  load_profile:
-    load_type: rps
-    schedule: step(1,5,1,6)
-console:
   enabled: false
+jmeter:
+  enabled: true
+  package: yandextank.plugins.JMeter
+  jmx: simple-test-plan.jmx
+  jmeter_path: jmeter
+  buffered_seconds: 0
+  ext_log: none
+  variables:
+    protocol: http
+    host: master.qa.sravni-team.ru
+    port: 80
+    thread_rpm: 6
+    loops: 10
 telegraf:
   enabled: false

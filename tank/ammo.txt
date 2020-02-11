@@ -1,8 +1,0 @@
-[host: master.qa.sravni-team.ru]
-[cache-control: no-cache]
-[user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36]
-[accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8]
-[accept-encoding: gzip, deflate, br]
-[accept-language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7]
-[cookie: .ASPXANONYMOUS=021d2f56ae996bc06bbdbc2f822e65b5f8f0ada2fc6ff6e50a0b67711550e919]
-/kredity/
