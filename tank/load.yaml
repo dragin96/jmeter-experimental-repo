@@ -1,0 +1,17 @@
+core:
+  artifacts_base_dir: /tmp
+overload:
+  enabled: true
+  package: yandextank.plugins.DataUploader
+  token_file: "token.txt"
+phantom:
+  ammofile: /var/loadtest/ammo.txt
+  address: master.qa.sravni-team.ru
+  ssl: false
+  load_profile:
+    load_type: rps
+    schedule: step(1,5,1,6)
+console:
+  enabled: false
+telegraf:
+  enabled: false
