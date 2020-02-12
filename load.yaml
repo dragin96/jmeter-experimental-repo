@@ -4,6 +4,8 @@ overload:
   token_file: "token.txt"
 phantom:
   enabled: false
+console:
+  enabled: false
 jmeter:
   enabled: true
   package: yandextank.plugins.JMeter
@@ -15,7 +17,7 @@ jmeter:
     protocol: http
     host: master.qa.sravni-team.ru
     port: 80
-    thread_rpm: 6
+    thread_rpm: 2
     loops: 10
 telegraf:
   enabled: false
